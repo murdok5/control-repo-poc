@@ -1,10 +1,20 @@
-forge "http://forge.puppetlabs.com"
+forge 'http://forge.puppetlabs.com'
 
 # Modules from the Puppet Forge
 # Versions should be updated to be the latest at the time you start
-#mod "puppetlabs/inifile",     '1.5.0'
-#mod "puppetlabs/stdlib",      '4.11.0'
-#mod "puppetlabs/concat",      '2.1.0'
+mod 'puppetlabs/inifile',     '1.i6.0'
+mod 'puppetlabs/stdlib',      '4.15.0'
+mod 'puppetlabs/concat',      '2.2.0'
+mod 'puppetlabs-tagmail',     '2.1.1'
+mod 'puppetlabs-apache',      '1.11.0'
+mod 'puppetlabs-registry',    '1.1.4'
+mod 'puppet-staging',         '2.2.0'
+
+
+mod 'ayohrling-local_security_policy', '0.6.1'
+mod 'bryana-ec2tagfacts', '0.2.0'
+mod 'stahnma-epel', '1.2.2'
+mod 'thias-sysctl', '1.0.6'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
