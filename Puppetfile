@@ -2,7 +2,7 @@ forge 'http://forge.puppetlabs.com'
 
 # Modules from the Puppet Forge
 # Versions should be updated to be the latest at the time you start
-mod 'puppetlabs/inifile',     '1.i6.0'
+mod 'puppetlabs/inifile',     '1.6.0'
 mod 'puppetlabs/stdlib',      '4.15.0'
 mod 'puppetlabs/concat',      '2.2.0'
 mod 'puppetlabs-tagmail',     '2.1.1'
