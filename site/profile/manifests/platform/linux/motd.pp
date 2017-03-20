@@ -1,6 +1,7 @@
 class profile::platform::linux::motd {
   class { '::motd':
     content => "
+    
 ===========================================================
 
         Welcome to ${::hostname}
@@ -13,6 +14,7 @@ staff. If you're not sure if it's allowed, then DON'T DO IT.
 
 The operating system is: ${::operatingsystem}
           The domain is: ${::domain}
+
 "
   }
 }

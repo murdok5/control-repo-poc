@@ -3,7 +3,7 @@ class profile::platform::linux::user {
   user { 'PuppetSE':
     ensure           => 'present',
     comment          => 'SE Demo Account',
-    gid              => '100',
+    gid              => '1010',
     home             => '/',
     password         => 'puppetftw',
     shell            => '/bin/bash',

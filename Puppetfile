@@ -9,12 +9,14 @@ mod 'puppetlabs-tagmail',     '2.1.1'
 mod 'puppetlabs-apache',      '1.11.0'
 mod 'puppetlabs-registry',    '1.1.4'
 mod 'puppet-staging',         '2.2.0'
+mod 'puppetlabs-vcsrepo',     '1.5.0'
 
 
 mod 'ayohrling-local_security_policy', '0.6.1'
-mod 'bryana-ec2tagfacts', '0.2.0'
-mod 'stahnma-epel', '1.2.2'
-mod 'thias-sysctl', '1.0.6'
+mod 'bryana-ec2tagfacts',              '0.2.0'
+mod 'stahnma-epel',                    '1.2.2'
+mod 'thias-sysctl',                    '1.0.6'
+mod 'jpadams-puppet_vim_env',          '2.4.1'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
